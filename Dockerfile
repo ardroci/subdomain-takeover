@@ -13,8 +13,6 @@ ENV PATH=$PATH:$GOPATH/bin
 # create wirk directory
 WORKDIR /home
 
-# RUN mkdir -p ${GOPATH}/src ${GOPATH}/bin
-
 # get subjack
 RUN go get github.com/haccer/subjack
 
