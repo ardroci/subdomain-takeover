@@ -10,7 +10,7 @@ ENV PATH="/usr/local/go/bin:$PATH"
 ENV GOPATH=/opt/go/
 ENV PATH=$PATH:$GOPATH/bin
 
-# create wirk directory
+# create work directory
 WORKDIR /home
 
 # get subjack
